@@ -1,2 +1,2 @@
 # ng-github
-AngularJS+Github API
+GitHub API wrapper for AngularJS

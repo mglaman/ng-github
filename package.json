@@ -1,0 +1,46 @@
+{
+  "name": "ng-github",
+  "description": "GitHub API wrapper for AngularJS",
+  "version": "0.0.1",
+  "filename": "ng-github.min.js",
+  "main": "./dist/ng-github.min.js",
+  "license": "MIT",
+  "homepage": "https://github.com/mglaman/ng-github",
+  "author": "Matt Glaman <nmd.matt@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mglaman/ng-github.git"
+  },
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "keywords": [
+    "angular",
+    "github"
+  ],
+  "maintainers": [
+    {
+      "name": "Matt Glaman",
+      "website": "https://glamanate.com/"
+    }
+  ],
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "karma": "^0.13.19"
+  },
+  "devDependencies": {
+    "grunt-cli": ">= 0.1.7",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-bower": "*",
+    "grunt-bower-task": "*",
+    "grunt-karma": "*",
+    "grunt-ngmin": "latest",
+    "grunt-conventional-changelog": "0.0.12",
+    "grunt-zip": "*"
+  },
+  "scripts": {
+    "test": "grunt test --verbose"
+  }
+}
