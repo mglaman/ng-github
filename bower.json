@@ -1,14 +1,16 @@
 {
-  "name": "ng-github",
+  "name": "ngGithub",
   "version": "0.0.1",
   "main": "./dist/ng-github.min.js",
   "description": "GitHub API wrapper for AngularJS",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mglaman/ng-github.git"
+    "url": "git@github.com:mglaman/ngGithub.git"
   },
   "dependencies": {
-    "angular": "*"
+    "angular": "*",
+    "angular-resource": "*",
+    "angular-mocks": "*"
   },
   "ignore": [
     "node_modules",

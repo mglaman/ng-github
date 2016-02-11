@@ -28,7 +28,7 @@ module.exports = function(grunt) {
       }
     },
     zip: {
-      '<%= dirs.dest %>/ng-github.zip': ['<%= dirs.dest %>/<%= pkg.name %>.js', '<%= dirs.dest %>/<%= pkg.name %>.min.js']
+      '<%= dirs.dest %>/ngGithub.zip': ['<%= dirs.dest %>/<%= pkg.name %>.js', '<%= dirs.dest %>/<%= pkg.name %>.min.js']
     },
     bower: {
       dev: {
@@ -87,11 +87,6 @@ module.exports = function(grunt) {
         singleRun: true,
         autoWatch: false
       },
-      buildUnderscore: {
-        configFile: 'karma.underscore.conf.js',
-        singleRun: true,
-        autoWatch: false
-      },
       dev: {
         autoWatch: true
       }
@@ -133,7 +128,7 @@ module.exports = function(grunt) {
   // Build task.
   grunt.registerTask('build', ['bowerInstall', 'bower', 'concat', 'ngmin', 'uglify', 'zip']);
 
-  grunt.registerTask('test', ['karma:build', 'karma:buildUnderscore']);
+  grunt.registerTask('test', ['karma:build']);
 
   // Provides the "bump" task.
   grunt.registerTask('bump', 'Increment version number', function() {

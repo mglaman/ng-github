@@ -1,6 +1,6 @@
 (function(){
   'use strict';
-  angular.module('ngGithub', [ 'ngResource' ]).provider('GitHub', function() {
+  angular.module('ngGithub', [ 'ngResource' ]).provider('GitHub', function GitHub() {
     var provider = this;
     this.defaults = {
       aptToken: '',
