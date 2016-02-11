@@ -1,7 +1,7 @@
 /**
  * GitHub API wrapper for AngularJS
  * @version v0.0.1 - 2016-02-11
- * @link https://github.com/mglaman/ngGithub
+ * @link https://github.com/mglaman/ng-github
  * @author Matt Glaman <nmd.matt@gmail.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */

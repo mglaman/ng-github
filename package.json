@@ -1,15 +1,15 @@
 {
-  "name": "ngGithub",
+  "name": "ng-github",
   "description": "GitHub API wrapper for AngularJS",
   "version": "0.0.1",
   "filename": "ng-github.min.js",
   "main": "./dist/ng-github.min.js",
   "license": "MIT",
-  "homepage": "https://github.com/mglaman/ngGithub",
+  "homepage": "https://github.com/mglaman/ng-github",
   "author": "Matt Glaman <nmd.matt@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mglaman/ngGithub.git"
+    "url": "git@github.com:mglaman/ng-github.git"
   },
   "engines": {
     "node": ">= 0.9"

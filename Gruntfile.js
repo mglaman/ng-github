@@ -28,7 +28,7 @@ module.exports = function(grunt) {
       }
     },
     zip: {
-      '<%= dirs.dest %>/ngGithub.zip': ['<%= dirs.dest %>/<%= pkg.name %>.js', '<%= dirs.dest %>/<%= pkg.name %>.min.js']
+      '<%= dirs.dest %>/ng-github.zip': ['<%= dirs.dest %>/<%= pkg.name %>.js', '<%= dirs.dest %>/<%= pkg.name %>.min.js']
     },
     bower: {
       dev: {
